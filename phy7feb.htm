@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHM Pendulum Simulation</title>
+    <link rel="stylesheet" href="phy7feb.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-logo"><b>Pendulum Simulation</b></div>
+        <div class="nav-links">
+            <a href="https://colab.research.google.com/drive/1V57ffGcrZMwX8EVH00BnI8I89YQNjJDp?usp=sharing">Graphs</a>
+            <a href="https://en.wikipedia.org/wiki/Simple_harmonic_motion">Theory</a>
+            <a href="https://youtu.be/uM2HpLBVAkA?si=oolWt2Fyun1r1Ukj">Video Reference</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <canvas id="pendulumCanvas" width="600" height="400"></canvas>
+        <div class="controls">
+            <label><b>String Length </b><input type="range" id="lengthSlider" min="50" max="300" value="200"></label>
+            <label><b>Bob Mass</b><input type="range" id="massSlider" min="5" max="50" value="10"></label>
+            <label>Friction<input type="range" id="frictionSlider" min="0.9" max="1" step="0.01" value="0.99"></label>
+        </div>
+        <div class="buttons">
+            <button id="startButton">Start</button>
+            <button id="stopButton">Stop</button>
+            <button id="restartButton">Restart</button>
+        </div>
+        <div class="info">
+            <p id="oscillationCount">Oscillations: 0</p>
+            <p id="timePeriod">Time Period: 0 s</p>
+        </div>
+    </div>
+
+    <script src="phy7feb.js"></script>
+</body>
+</html>

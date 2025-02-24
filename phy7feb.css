@@ -1,0 +1,81 @@
+/* Dark mode styling inspired by Quora */
+body {
+    background-color: #18191A;
+    color: #E4E6EB;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+/* Navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #242526;
+    padding: 15px 20px;
+}
+
+.nav-logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: #E4E6EB;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.nav-links a:hover {
+    color: #B0B3B8;
+}
+
+/* Simulation container */
+.container {
+    margin-top: 20px;
+}
+
+/* Canvas styling */
+canvas {
+    background:#B0B3B8;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Control sliders */
+.controls {
+    margin: 15px 0;
+}
+
+.controls label {
+    display: block;
+    margin: 5px;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 10px;
+    text-decoration-color: #e80a0a;
+}
+
+button {
+    background-color: #3A3B3C;
+    color: #E4E6EB;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4E4F50;
+}
+
+/* Info display */
+.info {
+    margin-top: 10px;
+    font-size: 18px;
+}
